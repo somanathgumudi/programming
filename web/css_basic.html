@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> css testing</title>
+	<!-- Internal css -->
+	<style>
+
+		<!-- tag testing -->
+		body{
+			background-color: white;
+		}
+		h1  {
+			color: green;
+			font-family: Arial;
+		}
+		h4{
+			color: yellow;
+		}
+		
+
+		p{
+			font-size: 20px;
+			color: red;
+		}
+
+		#somanath1 {
+				color: blue; 
+			}	
+	   
+	   .somanath2{
+			color:green;
+	   }
+		
+
+
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+</head>
+<body>
+	<h1>css testing</h1>
+	
+	<!-- Inline css -->
+	<h1 style="color: #32CD32">Inline css</h1>
+
+	<!-- Internal css -->
+	<h1>Internal css</h1>
+	<h2>Style atterbute in same line of tag </h2>
+	<p>css style atterbute in same line of tag</p>
+	<div>
+		Thes is a div tag
+	</div>
+
+
+	<!-- External css -->
+	<h3>External css</h3>
+
+
+	<!-- Inline css has highest priority and it will be applied if there are conficts of properties for html tag  -->
+	<h4 style="color: red">inline css wins</h4>
+
+	<h4>Internal css wins as there is no inline css</h4>
+
+	<h5>External css wins as there is no inline or internal css</h5>
+
+<hr>
+
+<h1>css tag,id,class t testing</h1>
+
+	<div id="somanath1">
+		id color blue
+	</div>
+	<p>
+		paragraph front color is red
+	</p>
+	<p class="somanath2">
+		testing 1 class color is green
+
+	</p>
+	<h2 class="somanath2">
+		testing 2 class color green
+
+	</h2>
+
+
+
+
+
+
+</body>
+</html>
